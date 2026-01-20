@@ -1,19 +1,19 @@
 # Dotfiles - fsugii
 
-Minhas configurações para desenvolvimento na 42 School.
+My development configurations for 42 School.
 
-## 📦 Conteúdo
-- **Neovim**:  Editor configurado para C
-- **Git**: Aliases e configurações
-- **Shell**: Bash/Zsh personalizados
+## 📦 Contents
+- **Neovim**: Editor configured for C
+- **Git**: Aliases and configurations
+- **Shell**: Customized Bash/Zsh
 
-## 🚀 Instalação Rápida
+## 🚀 Quick Installation
 ```bash
 git clone https://github.com/fsugii/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 chmod +x install.sh
 ./install.sh
-
+```
 
 ## Tmux
-Configuração personalizada do tmux incluída. 
+Custom tmux configuration included.
