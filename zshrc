@@ -73,6 +73,11 @@ ZSH_THEME="bira"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+#
+# source ~/dotfiles/zsh/powerlevel10k/powerlevel10k.zsh-theme
+
+# autoload -Uz compinit
+# compinit
 
 # User configuration
 
@@ -137,3 +142,6 @@ alias restart="source ~/.zshrc"
 alias config="nvim ~/.zshrc"
 alias paco='/home/fshiniti/francinette/tester.sh'
 alias rg='~/ripgrep-14.1.0-x86_64-unknown-linux-musl/rg'
+
+# opencode
+export PATH=/home/fshiniti/.opencode/bin:$PATH

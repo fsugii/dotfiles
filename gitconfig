@@ -5,3 +5,9 @@
 # Please adapt and uncomment the following lines:
 #	name = Flavio Shiniti Sugii
 #	email = fshiniti@student.42porto.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/sgoinfre/fshiniti/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/sgoinfre/fshiniti/homebrew/bin/gh auth git-credential
